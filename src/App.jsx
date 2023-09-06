@@ -1,7 +1,13 @@
+import { Header } from './components/Header'
+import './global.css'
+
 function App() {
 
   return (
-   <h1>Olá</h1>
+    <div>
+      <Header/>
+      <h1>Olá</h1>
+    </div>
   )
 }
 
